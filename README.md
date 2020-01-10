@@ -1,6 +1,6 @@
-# Routing of Vue.js
+# Single page App Vue.js
 
-> Routing is one of those methods. It allows the user to switch between pages without refreshing the page. This is what makes navigation easy and really nice in  web applications.  
+> Single page App: Routing is one of those methods. It allows the user to switch between pages without refreshing the page. This is what makes navigation easy and really nice in  web applications.  
 
  <ul class="learning-lession">
 
