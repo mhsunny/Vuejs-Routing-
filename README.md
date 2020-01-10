@@ -1,42 +1,32 @@
 # Single page App Vue.js
 
-> Single page App: Routing is one of those methods. It allows the user to switch between pages without refreshing the page. This is what makes navigation easy and really nice in  web applications.  
+> Single page App: Progressive app. Here I show how to use the routing in Vue js. You can switch the pages without refresh the page. Alos it shows how to communicate among components like from parent to child, child to partent, and child to child component.  This is the reall cool thing the basic understand the vue js  routing and navigation for a single page application.
 
 <pre>
 <code>
- <ul class="learning-lession">
-
-      <li> Setting up Routes </li>
-      <li> Router Links </li>
-      <li> Route Parameters </li>
-      <li> Watching the $route Object </li>
-      <li> More on Router Links </li>
-      <li> Programmatically Redirecting User </li>
-      <li> Hash vs History Mode </li>
-      <li> Navbar </li>
-
-    </ul>
+- Setting up Routes  
+- Router Links  
+- Route Parameters  
+- Watching the $route Object  
+- More on Router Links  
+- Programmatically Redirecting User  
+- Hash vs History Mode  
+- Navbar   
 </code>
 
 </pre>
-
-
+ 
 ## CODE
-
 
 <pre>
 <code> 
-
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from '@/components/Home'
-import About from '@/components/About'
-//import About from '@/components/Contact'
-import ViewProfile from '@/components/ViewProfile'
-
-
-Vue.use(Router)
-
+  import Vue from 'vue'
+  import Router from 'vue-router'
+  import Home from '@/components/Home'
+  import About from '@/components/About'
+  import About from '@/components/Contact'
+  import ViewProfile from '@/components/ViewProfile'
+  Vue.use(Router)
 export default new Router({
   mode: 'history', 
   routes: [
@@ -62,29 +52,19 @@ export default new Router({
     }
   ]
 })
-
 </code>
-
-</pre>
-
- 
-
+</pre> 
 ## App.vue Component template part
-
 <pre>
 <code>
 
-<template>
-  <div class="main-nav">
-    <ul>
-      <li><router-link to="/">Home</router-link></li>
-       <li><router-link :to="{name: 'About'}">About</router-link></li>
-       <li><router-link :to="{name: 'Contact'}">Contact</router-link></li>
-    </ul>
-
-    <h2>User Profiles</h2>
-
-    <ul>
+<!-- Commented out before run the project -->
+<!-- <template> 
+<router-link to="/">Home</router-link>
+<router-link :to="{name: 'About'}">About</router-link>
+<router-link :to="{name: 'Contact'}">Contact</router-link>
+ <p>User Profiles</p> 
+   <ul>
       <li v-for ="(id, index) in userIds" :key="index">
 
         <router-link :to="{name: 'ViewProfile', params:{user_id: id}}">
@@ -92,29 +72,23 @@ export default new Router({
 
         </router-link>
       </li>
-    </ul>
+    </ul>  
 
-    <h2>Navigation Control</h2>
+    <p>Navigation Control</p>
     <ul>
        <li><button @click="goBack">Go Back</button></li>
        <li><button @click="goHome">Rediect to Home</button></li>
               <li><button @click="goForward">Go Forward</button></li>
-    </ul>
+    </ul> 
   </div>
-</template>
-
-
+</template>-->
+ 
 </code>
-
 </pre>
 
-
 ## Script part
-
 <pre>
 <code>
-
-
 <script>
 export default {
   name: 'Navbar',
@@ -137,5 +111,4 @@ export default {
 }
 </script>
 </code>
-
 </pre> 
