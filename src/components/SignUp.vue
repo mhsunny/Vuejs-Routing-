@@ -1,13 +1,13 @@
 <template>
-  <div class="contact">
-    <h1>Welcome to Contact</h1>
+  <div class="home">
+    <h1>Sign Up page</h1>
    
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Contact',
+  name: 'SignUp',
   data () {
     return {
   

@@ -1,6 +1,6 @@
 <template>
   <div class="view-profile">
-    <h1>Profile for {{ userId}}</h1>
+    <h1>User Profile of {{ userId}}</h1>
    
   </div>
 </template>

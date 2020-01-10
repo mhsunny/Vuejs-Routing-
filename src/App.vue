@@ -1,8 +1,12 @@
 <template>
-  <div id="app">
+  <div id="app"> 
+   
+    <Navbar />
+    
+    <router-view/>
 
-    <img src="./assets/logo.png">
-    <ul class="learning-lession">
+
+ <ul class="learning-lession">
 
       <li> Setting up Routes </li>
       <li> Router Links </li>
@@ -13,9 +17,6 @@
       <li> Hash vs History Mode </li>
 
     </ul>
-    <Navbar />
-    
-    <router-view/>
 
   </div>
 </template>
@@ -42,8 +43,11 @@ export default {
 .learning-lession{
   position: absolute;
   left: 0;
-  top: 10%
-  
+  top: 40%;
+    background: aliceblue;
+        padding: 10px 30px;
+         width: 200px;
+    
 }
 .learning-lession li{
   text-align: left;
@@ -52,6 +56,7 @@ export default {
   .learning-lession{
       position: relative;
       margin: 0 auto;
+     
       
   }
   .learning-lession li{
