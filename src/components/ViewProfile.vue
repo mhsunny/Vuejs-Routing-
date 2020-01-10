@@ -2,7 +2,7 @@
   <div class="view-profile">
     <h1>User Profile of {{ userId}}</h1>
    
-  </div>
+  </div> 
 </template>
 
 <script>

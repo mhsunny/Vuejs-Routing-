@@ -6,7 +6,7 @@
     <div class="navbar-header">
       <a class="navbar-brand" href="/"><router-link :to="{name: 'Home'}">Single Page App</router-link></a>
     </div>
-    <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav"> 
       <li><router-link :to="{name: 'Home'}">Home</router-link> </li>
       <li><router-link :to="{name: 'About'}">About</router-link> </li>
        <li><router-link :to="{name: 'Contact'}">Contact</router-link> </li>

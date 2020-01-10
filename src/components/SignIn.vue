@@ -5,10 +5,10 @@
   </div>
 </template>
 
-<script>
+<script> 
 export default {
   name: 'SignIn',
-  data () {
+  data () { 
     return {
   
   

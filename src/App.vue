@@ -42,7 +42,7 @@ export default {
 }
 .learning-lession{
   position: absolute;
-  left: 0;
+  left: 0; 
   top: 40%;
     background: aliceblue;
         padding: 10px 30px;

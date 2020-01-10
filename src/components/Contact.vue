@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <h1>Welcome to Contact</h1>
-   
+    
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   data () {
     return {
   
-  
+   
     }
   }
 }
