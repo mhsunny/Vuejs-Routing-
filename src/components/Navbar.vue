@@ -4,7 +4,7 @@
     <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" :href="{name: 'Home'}"><router-link to="{name: 'Home'}">Single Page App</router-link></a>
+      <a class="navbar-brand" href="/"><router-link :to="{name: 'Home'}">Single Page App</router-link></a>
     </div>
     <ul class="nav navbar-nav">
       <li><router-link :to="{name: 'Home'}">Home</router-link> </li>
@@ -17,7 +17,7 @@
     </ul>
   </div>
 </nav> 
-  <h4>User profile  and pass parameter routing</h4>
+  <h4>User profiles and pass parameter routing</h4> 
 
   <ul class="userp">
     <li v-for ="(id, index) in userIds" :key="index">
