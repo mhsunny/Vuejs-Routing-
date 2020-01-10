@@ -2,6 +2,8 @@
 
 > Single page App: Routing is one of those methods. It allows the user to switch between pages without refreshing the page. This is what makes navigation easy and really nice in  web applications.  
 
+<pre>
+<code>
  <ul class="learning-lession">
 
       <li> Setting up Routes </li>
@@ -11,12 +13,19 @@
       <li> More on Router Links </li>
       <li> Programmatically Redirecting User </li>
       <li> Hash vs History Mode </li>
+      <li> Navbar </li>
 
     </ul>
+</code>
 
-## Build Setup
+</pre>
 
-<code>
+
+## CODE
+
+
+<pre>
+<code> 
 
 import Vue from 'vue'
 import Router from 'vue-router'
@@ -54,12 +63,16 @@ export default new Router({
   ]
 })
 
-
 </code>
 
+</pre>
 
+ 
+
+## App.vue Component template part
+
+<pre>
 <code>
-
 
 <template>
   <div class="main-nav">
@@ -90,6 +103,18 @@ export default new Router({
   </div>
 </template>
 
+
+</code>
+
+</pre>
+
+
+## Script part
+
+<pre>
+<code>
+
+
 <script>
 export default {
   name: 'Navbar',
@@ -111,9 +136,6 @@ export default {
   }
 }
 </script>
-
-
 </code>
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-"# Vuejs-Routing-" 
+</pre> 
