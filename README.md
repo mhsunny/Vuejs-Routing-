@@ -13,11 +13,9 @@
 - Hash vs History Mode  
 - Navbar   
 </code>
-
 </pre>
  
-## CODE
-
+## CODE App.vue component
 <pre>
 <code> 
   import Vue from 'vue'
@@ -58,18 +56,17 @@ export default new Router({
 <pre>
 <code>
 
-<!-- Commented out before run the project -->
-<!-- <template> 
+ --  Commented out before run the project  
+ 
+<template> 
 <router-link to="/">Home</router-link>
 <router-link :to="{name: 'About'}">About</router-link>
 <router-link :to="{name: 'Contact'}">Contact</router-link>
  <p>User Profiles</p> 
    <ul>
       <li v-for ="(id, index) in userIds" :key="index">
-
         <router-link :to="{name: 'ViewProfile', params:{user_id: id}}">
           <span>Profile {{id}}</span>
-
         </router-link>
       </li>
     </ul>  
@@ -78,11 +75,10 @@ export default new Router({
     <ul>
        <li><button @click="goBack">Go Back</button></li>
        <li><button @click="goHome">Rediect to Home</button></li>
-              <li><button @click="goForward">Go Forward</button></li>
+      <li><button @click="goForward">Go Forward</button></li>
     </ul> 
   </div>
-</template>-->
- 
+</template>  
 </code>
 </pre>
 
