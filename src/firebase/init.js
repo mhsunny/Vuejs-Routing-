@@ -3,13 +3,13 @@
 
    // Your web app's Firebase configuration
      var firebaseConfig = {
-      apiKey: "AIzaSyCdB0gXSA9DqlJgS3DI48z7phKQ64AMnGY",
+      apiKey: "api key here",
       authDomain: "single-page-vue-js.firebaseapp.com",
       databaseURL: "https://single-page-vue-js.firebaseio.com",
       projectId: "single-page-vue-js",
       storageBucket: "single-page-vue-js.appspot.com",
-      messagingSenderId: "1022128783925",
-      appId: "1:1022128783925:web:9a991b4f170fa828f2a77c"
+      messagingSenderId: "",
+      appId: "api id here"
   };
   // Initialize Firebase
   //firebase.initializeApp(firebaseConfig);
