@@ -1,6 +1,6 @@
 # Single page App Vue.js
 
-> Single page App: Progressive app. Here I show how to use the routing in Vue js. You can switch the pages without refresh the page. Alos it shows how to communicate among components like from parent to child, child to partent, and child to child component.  This is the reall cool thing the basic understand the vue js  routing and navigation for a single page application.
+> Single page App: Progressive app. Single page App: Learning purpose only.Using Vue routing which allows to switch the pages without refresh the page. Alos it shows how to communicate among components like from parent to child, child to partent, and child to child component.  This is the reall cool thing the basic understand the vue js  routing and navigation for a single page application.
 
 <pre>
 <code>
