@@ -16,6 +16,7 @@
 </pre>
  
 ## CODE App.vue component
+-- This comnonent has three parts, template (html part), script and style. 
 <pre>
 <code> 
   import Vue from 'vue'
@@ -51,54 +52,4 @@ export default new Router({
   ]
 })
 </code>
-</pre> 
-## App.vue Component template part
-<pre>
-<code>
-   Commented out before run the project  
-<template> 
-<router-link to="/">Home</router-link>
-<router-link :to="{name: 'About'}">About</router-link>
-<router-link :to="{name: 'Contact'}">Contact</router-link>
- <p>User Profiles</p> 
-   <ul>
-      <li v-for ="(id, index) in userIds" :key="index">
-        <router-link :to="{name: 'ViewProfile', params:{user_id: id}}">
-          <span>Profile {{id}}</span>
-        </router-link>
-      </li>
-    </ul>  
-    <p>Navigation Control</p>
-    <ul>
-       <li><button @click="goBack">Go Back</button></li>
-       <li><button @click="goHome">Rediect to Home</button></li>
-      <li><button @click="goForward">Go Forward</button></li>
-    </ul> 
-  </div>
-</template> 
-## Script part
-<pre>
-<code>
-<script>
-export default {
-  name: 'Navbar',
-  data () {
-    return {  
-      userIds : ['1', '2', '3', '4']  
-    }
-  },
-  methods:{
-    goHome(){
-     this.$router.push({name:'Home'})
-    },
-    goBack(){
-      this.$router.go(-1);
-    },
-    goForward(){
-      this.$router.go(1);
-    }
-  }
-}
-</script>
-</code>
-</pre> 
+</pre>  
