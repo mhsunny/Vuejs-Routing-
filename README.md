@@ -55,9 +55,7 @@ export default new Router({
 ## App.vue Component template part
 <pre>
 <code>
-
- --  Commented out before run the project  
- 
+   Commented out before run the project  
 <template> 
 <router-link to="/">Home</router-link>
 <router-link :to="{name: 'About'}">About</router-link>
@@ -70,7 +68,6 @@ export default new Router({
         </router-link>
       </li>
     </ul>  
-
     <p>Navigation Control</p>
     <ul>
        <li><button @click="goBack">Go Back</button></li>
@@ -78,10 +75,7 @@ export default new Router({
       <li><button @click="goForward">Go Forward</button></li>
     </ul> 
   </div>
-</template>  
-</code>
-</pre>
-
+</template> 
 ## Script part
 <pre>
 <code>
